@@ -14,7 +14,6 @@ type Palette = {
 };
 
 const W = 320;
-const H = 180;
 const FPS = 15;
 const FRAME_MS = 1000 / FPS;
 
