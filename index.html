@@ -1,0 +1,30 @@
+
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#171b30" />
+    <title>SORA — Pixel Nostalgia</title>
+  </head>
+  <body>
+    <main id="app">
+      <canvas id="scene" width="320" height="180"></canvas>
+
+      <div class="brand">SORA <span>/ PIXEL NOSTALGIA</span></div>
+      <div id="clock" class="clock"></div>
+
+      <nav class="controls" aria-label="風景の設定">
+        <button data-mode="auto" class="active">AUTO</button>
+        <button data-mode="morning">朝</button>
+        <button data-mode="day">昼</button>
+        <button data-mode="sunset">夕</button>
+        <button data-mode="night">夜</button>
+        <button id="fullscreen" aria-label="全画面">⛶</button>
+      </nav>
+
+      <div id="status" class="status"></div>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
